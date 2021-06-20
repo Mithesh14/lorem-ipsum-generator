@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+*,
+::after,
+::before {
+  margin: 0;
+  padding-top: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #261935;
+  color: white;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #261935;
+  line-height: 1.25;
+  margin: 0.75rem 0;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Black Ops One', cursive;
+}
+
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paraAmountNum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 1.25rem;
+  color:white;
+  font-family: 'Black Ops One', cursive;
+}
+
+input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  background: #261935;
+  color: white;
+  font-weight: 400;
+  transition: all 0.3s linear;
+  border: transparent;
+  cursor: pointer;
+  font-family: 'Black Ops One', cursive;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 1rem 0.75rem;
+  margin-left: 8rem;
+}
+.btn:hover {
+  color: #261935;
+  background: white;
+}
+
+.result {
+  width:80vw;
+  margin: 1rem auto;
+}
+
+input[type="range"]
+{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50%;
+  height: 3.5px;
+  margin-top: 0.5rem;
+  background-color: #261935;
+  border-radius: 3.5px;
+}
+
+input[type="range"]::-webkit-slider-thumb
+{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: #ffeae1;
+  border-radius: 50%;
+}
+
+.lorem-text
+{
+  font-size: 1rem;
+}
