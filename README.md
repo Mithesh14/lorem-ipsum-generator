@@ -3,7 +3,7 @@
 
 # Project deployed at
 
-<a href="https://mithesh14.github.io/Github-profile/">Generator</a>
+<a href="https://mithesh14.github.io/lorem-ipsum-generator/">Generator</a>
 
 # Screenshots 
 
